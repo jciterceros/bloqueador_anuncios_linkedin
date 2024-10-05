@@ -4,8 +4,8 @@
 Este projeto é uma extensão para o Google Chrome que permite bloquear anúncios promovidos no LinkedIn.
 
 <p align="center">
-    <a href="https://github.com/jciterceros/" target="blank">
-        <img src="" width="400" alt="Bloqueador de Anúncios no LinkedIn" />
+    <a href="https://github.com/jciterceros/bloqueador_anuncios_linkedin" target="blank">
+        <img src="https://github.com/jciterceros/bloqueador_anuncios_linkedin/blob/b42da468c08fa9ba31242150765aacf14339551e/LinkedIn%20Ad%20Blocker.png" width="400" alt="Bloqueador de Anúncios no LinkedIn" />
     </a>
 </p>
 
