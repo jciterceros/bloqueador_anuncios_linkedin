@@ -1,7 +1,6 @@
 function blockAds() {
     // Seleciona todos os spans com o texto "Promovido"
     let promotedSpans = document.querySelectorAll('span');
-    // console.log(promotedSpans);
   
     promotedSpans.forEach(span => {
       if (span.innerText.includes("Promovido")) {
