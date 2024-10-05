@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Ad Blocker",
+    "version": "1.0",
+    "description": "Bloqueia anúncios promovidos no LinkedIn.",
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://www.linkedin.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.linkedin.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "LinkedIn Ad Blocker"
+    }
+}
